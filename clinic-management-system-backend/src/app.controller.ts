@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+    console.log('hello: ', process.env.POSTGRES_HOST);
     return this.appService.getHello();
   }
 }
