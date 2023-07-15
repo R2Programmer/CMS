@@ -9,7 +9,6 @@ $ npm install
 ```
 
 ## Running the app
-
 ```bash
 # development
 $ npm run start
@@ -33,6 +32,17 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Docker
+
+```bash
+# start docker
+$ docker-compose up
+
+# stop docker
+$ docker-compose down
+```
+
 
 ## Support
 
